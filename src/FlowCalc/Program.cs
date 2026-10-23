@@ -2,7 +2,7 @@ namespace FlowCalc;
 
 public static class Calculator
 {
-    public static double FlowRate(double volume, double seconds) => volume * seconds;
+    public static double FlowRate(double volume, double seconds) => volume / seconds;
 }
 
 public static class Program
